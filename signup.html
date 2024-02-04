@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping | Sign Up</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <header>
+        <div class="continer">
+            <a href="index.html" class="logo">Shopping</a>
+
+            <nav>
+                <ul>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="register">
+            <h2>Registraion</h2>
+            <form>
+                <div class="input-group">
+                    <!-- <label>Name</label> -->
+                    <input type="text" id="userName" placeholder="Enter Your Name" onkeyup="validateName()">
+                    <span class="nameEror"></span>
+                </div>
+                <div class="input-group">
+                    <!-- <label>Email</label> -->
+                    <input type="email" id="email" placeholder="Enter Your Email" onkeyup="validateEmail()">
+                    <span class="emailEror"></span>
+                </div>
+                <div class="input-group">
+                    <!-- <label>Password</label> -->
+                    <input type="password" id="password" placeholder="Enter Your Password" onkeyup="validatepassword()">
+                    <span class="passwordEror"></span>
+                </div>
+
+                <button class="signup">Sign Up</button>
+                <div class="acount">
+                    <span>Already Have an account!</span>
+                    <a href="signin.html" class="signin">Sign In</a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="js/signup.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/logout.js"></script>
+
+</body>
+</html>

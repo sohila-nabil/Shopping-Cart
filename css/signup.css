@@ -1,0 +1,69 @@
+
+.register {
+    width: 80%;
+    margin: auto;
+    padding: 20px 20px;
+}
+.register h2 {
+    position: absolute;
+    top: 17%;
+    left: 42%;
+}
+.signinpage h2 {
+    position: absolute;
+    top: 22%;
+    left: 45%;
+}
+form {
+    width: 380px;
+    /* background-color: #340930b1;; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 10px ;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.input-group {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+.input-group input {
+    background-color: transparent;
+    padding: 8px 15px;
+    border: none;
+    border-bottom: 1px solid black;
+   flex-basis: 83%
+}
+input:focus {
+    outline: none;
+    background-color: white;
+}
+
+.input-group span {
+    position: absolute;
+    right: 33px;
+    top: 6px;
+    font-size: 14px;
+    color: red;
+}
+.input-group span i {
+    color: seagreen;
+}
+.signup, .signinpage .signinn {
+    cursor: pointer;
+    border: none;
+    display: block;
+    padding: 10px 70px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    margin:40px auto 0;
+}
+.acount {
+   margin-top: 20px;
+   text-align: center;
+}
